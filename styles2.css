@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFF3;
+    font-family: Noto Sans JP, Helvetica, sans-serif;
+    color: #414a4c;
+}
+h1{
+    color: #FF4F00;
+    font-size: 7.5vw;
+}
+.bento,.s1Hero{
+    font-size: 3.75vw;
+}
+
+@media (max-width:320px){
+    h1{
+        font-size: 24px;
+    }
+}
